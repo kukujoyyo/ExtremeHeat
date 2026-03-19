@@ -93,7 +93,7 @@ API_DELAY = 2
 MAX_RETRIES = 3
 RETRY_WAIT = 60
 
-VISITOR_DATA_DIR = r"D:\Research\ExtremeHeat\Preprocess\Journal\Code\Gini\Data"
+VISITOR_DATA_DIR = r"D:\Research\ExtremeHeat\Preprocess\Journal\Code\Data\Heat_NoHeat_OD"
 
 def load_visitor_data(city_name, visitor_data_dir=VISITOR_DATA_DIR):
     """
@@ -1233,7 +1233,7 @@ def main(test_mode=True, max_cbgs_test=20, test_cities=None):
         print(f"  - This is for quick testing only")
         print(f"  - Set test_mode=False for full processing\n")
 
-    output_dir = r"D:\Research\ExtremeHeat\Preprocess\Journal\Code\Gini"
+    output_dir = r"D:\Research\ExtremeHeat\Preprocess\Journal\Code\SNHMI"
 
     import os
     if not os.path.exists(output_dir):
