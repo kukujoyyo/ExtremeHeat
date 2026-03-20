@@ -12,10 +12,9 @@ In this study, visitation frequency is defined as the number of visits to POIs w
 
 Cities are classified into three behavioral clusters derived from Dynamic Time Warping (DTW) hierarchical clustering:
 
-| Cluster | Cities |
-| **Heat-Sensitive MSAs** | Chicago, Dallas, Houston |
-| **Temperature-Resilient MSAs** | Los Angeles, New York, Phoenix |
-| **Adaptive / Baseline MSAs** | Austin, Charlotte, Columbus, Denver, Indianapolis, Jacksonville, Nashville, Oklahoma City, Philadelphia, San Antonio, San Diego, San Francisco, San Jose, Seattle |
+Heat-Sensitive MSAs: Chicago, Dallas, Houston
+Temperature-Resilient MSAs: Los Angeles, New York, Phoenix
+Adaptive / Baseline MSAs: Austin, Charlotte, Columbus, Denver, Indianapolis, Jacksonville, Nashville, Oklahoma City, Philadelphia, San Antonio, San Diego, San Francisco, San Jose, Seattle
 
 ---
 
