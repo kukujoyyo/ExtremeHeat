@@ -4,19 +4,16 @@ This repository contains the analysis code for a study examining how extreme hea
 
 ## Research Overview
 
-In this study, visitation frequency is defined as the number of visits to POIs within the home city, originating from home, during a specific time period. We extend the state-of-the-art by addressing the following questions:
-
+In this study, we are committed to addressing the following questions:
 - How do the spatiotemporal dynamics of human mobility under extreme heat vary across major US metropolitan areas?
 - What are the revealed visitation patterns to urban establishments and essential services under extreme heat?
 - How do the topological characteristics of street networks, as representations of urban morphology, shape human mobility patterns under extreme heat?
 
-Cities are classified into three behavioral clusters derived from Dynamic Time Warping (DTW) hierarchical clustering:
+Cities are classified into three clusters derived from Dynamic Time Warping (DTW) and hierarchical clustering:
 
-Heat-Sensitive MSAs: Chicago, Dallas, Houston
-
-Temperature-Resilient MSAs: Los Angeles, New York, Phoenix
-
-Adaptive / Baseline MSAs: Austin, Charlotte, Columbus, Denver, Indianapolis, Jacksonville, Nashville, Oklahoma City, Philadelphia, San Antonio, San Diego, San Francisco, San Jose, Seattle
+- Heat-Sensitive MSAs: Chicago, Dallas, Houston
+- Temperature-Resilient MSAs: Los Angeles, New York, Phoenix
+- Adaptive / Baseline MSAs: Austin, Charlotte, Columbus, Denver, Indianapolis, Jacksonville, Nashville, Oklahoma City, Philadelphia, San Antonio, San Diego, San Francisco, San Jose, Seattle
 
 **Research framework**
 
