@@ -45,7 +45,7 @@ The `Supplementary/` directory contains code for all figures and tables in the S
 
 ## Data
 
-Raw data are not ncludedd in this repository due to size and licensing constraints. Please refer to the data availability statement in the associated publication. Scripts expect input files to be placed under a `Data/` directory. The required folder and file names correspond directly to the paths defined at the top of each script (e.g., `DATA_DIR = r"path/to/Data/CBG_City_Week_Statistics"`).
+Raw data are not ncluded in this repository due to size and licensing constraints. Please refer to the data availability statement in the associated publication. Scripts expect input files to be placed under a `Data/` directory. The required folder and file names correspond directly to the paths defined at the top of each script (e.g., `DATA_DIR = r"path/to/Data/CBG_City_Week_Statistics"`).
 Mobility data are derived from anonymized, aggregated mobile device records; temperature data are from NOAA daily summaries; street network data are retrieved at runtime from OpenStreetMap via OSMnx.
 
 ---
