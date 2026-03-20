@@ -18,6 +18,9 @@ Temperature-Resilient MSAs: Los Angeles, New York, Phoenix
 
 Adaptive / Baseline MSAs: Austin, Charlotte, Columbus, Denver, Indianapolis, Jacksonville, Nashville, Oklahoma City, Philadelphia, San Antonio, San Diego, San Francisco, San Jose, Seattle
 
+**Research framework**
+<img width="975" height="1104" alt="image" src="https://github.com/user-attachments/assets/abd11693-eab1-4817-9a86-0664387d007c" />
+
 ---
 
 ## Repository Structure
