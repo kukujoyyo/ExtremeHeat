@@ -41,20 +41,7 @@ Code/
 
 ## Supplementary Information
 
-The `Supplementary/` directory contains code for all figures and tables in the Supplementary Information of the paper. Scripts are prefixed with their corresponding supplementary item number.
-
-| Script | Supplementary Item | Description |
-| `S2. Temperature_response.py` | Fig. S2 | Per-city temperature–visit response curves with smoothed trend lines |
-| `S3. Silhouette_Analysis.py` | Fig. S3 | Silhouette score analysis for selecting the optimal number of DTW clusters |
-| `S4. Proportional Distance_Visit frequency.py` | Fig. S4 | Proportional distance and visit frequency by NAICS category across city clusters |
-| `S5. Distance_visit counts_temperature.py` | Fig. S5 | Boxplots of daily distance and visitor counts across temperature bins |
-| `S9. Normality Tests.py` | Table S9 | Shapiro–Wilk normality tests for street network indicators |
-| `S10a. Polar distribution of distance.py` | Fig. S10a | Polar histograms of travel distance direction by city |
-| `S10b Polar distribution of visit.py` | Fig. S10b | Polar histograms of visit-pattern direction by city |
-| `S11. Probability Density.py` | Fig. S11 | Probability density plots of mobility indicators |
-| `S12. BC_Map.py` | Fig. S12 | Betweenness centrality maps for each city derived from OSMnx street networks |
-| `S13. Cities_SNHMI_Map.py` | Fig. S13 | City-level Street Network Heat Mobility Index (SNHMI) map with Census and OSMnx data |
----
+The `Supplementary/` directory contains code for all figures and tables in the Supplementary Information of the paper. Each script is prefixed with its corresponding item number (e.g., `S3. Silhouette_Analysis.py` is for Fig. S3, `T1. Spearman Test.py` is for Table 1).
 
 ## Data
 
