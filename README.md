@@ -1,14 +1,14 @@
-# Extreme Heat and Urban Mobility: Evidence from 20 U.S. Metropolitan Areas
+# Revealing Human Mobility Patterns to Extreme Heat through Street Network Topology
 
-This repository contains the analysis code for a study examining how extreme heat events shape human mobility patterns across 20 major U.S. Metropolitan Statistical Areas (MSAs). Using large-scale mobility data linked with temperature records, NAICS-coded point-of-interest visits, and OpenStreetMap street network data, the study identifies divergent behavioral responses to heat stress and connects them to urban form characteristics.
+This repository contains the analysis code for a study examining how extreme heat events shape human mobility patterns across 20 major US Metropolitan Statistical Areas (MSAs). Using large-scale mobility data linked with temperature records, NAICS-coded POIs' visits, and OpenStreetMap street network data, the study identifies divergent behavioral responses to heat stress and connects them to urban form characteristics.
 
 ## Research Overview
 
-Extreme heat is one of the deadliest climate hazards, yet its impacts on everyday urban mobility remain poorly understood at the metropolitan scale. This study asks:
+In this study, visitation frequency is defined as the number of visits to POIs within the home city, originating from home, during a specific time period. We extend the state-of-the-art by addressing the following questions:
 
-- How does rising temperature reshape visits to essential services (healthcare, grocery stores, restaurants)?
-- Do cities respond to heat stress uniformly, or are there distinct behavioral clusters?
-- What urban-form features — walkable POI access, street network geometry — correlate with heat resilience?
+- How do the spatiotemporal dynamics of human mobility under extreme heat vary across major US metropolitan areas?
+- What are the revealed visitation patterns to urban establishments and essential services under extreme heat?
+- How do the topological characteristics of street networks, as representations of urban morphology, shape human mobility patterns under extreme heat?
 
 Cities are classified into three behavioral clusters derived from Dynamic Time Warping (DTW) hierarchical clustering:
 
@@ -45,7 +45,7 @@ The `Supplementary/` directory contains code for all figures and tables in the S
 
 ## Data
 
-Raw data are not included in this repository due to size and licensing constraints. Please refer to the data availability statement in the associated publication. Scripts expect input files to be placed under a `Data/` directory. The required folder and file names correspond directly to the paths defined at the top of each script (e.g., `DATA_DIR = r"path/to/Data/CBG_City_Week_Statistics"`).
+The study covers 23,460 CBGs, with a total of approximately 163 million person-trips and a total travel distance of about 1.31×108 km. Raw data are not included in this repository due to size and licensing constraints. Please refer to the data availability statement in the associated publication. Scripts expect input files to be placed under a `Data/` directory. The required folder and file names correspond directly to the paths defined at the top of each script (e.g., `DATA_DIR = r"path/to/Data/CBG_City_Week_Statistics"`).
 Mobility data are derived from anonymized, aggregated mobile device records; temperature data are from NOAA daily summaries; street network data are retrieved at runtime from OpenStreetMap via OSMnx.
 
 ---
