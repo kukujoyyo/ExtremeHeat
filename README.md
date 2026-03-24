@@ -9,12 +9,6 @@ In this study, we are committed to addressing the following questions:
 - What are the revealed visitation patterns to urban establishments and essential services under extreme heat?
 - How do the topological characteristics of street networks, as representations of urban morphology, shape human mobility patterns under extreme heat?
 
-Cities are classified into three clusters derived from Dynamic Time Warping (DTW):
-
-- Heat-Sensitive MSAs: Chicago, Dallas, Houston
-- Temperature-Resilient MSAs: Los Angeles, New York, Phoenix
-- Adaptive / Baseline MSAs: Austin, Charlotte, Columbus, Denver, Indianapolis, Jacksonville, Nashville, Oklahoma City, Philadelphia, San Antonio, San Diego, San Francisco, San Jose, Seattle
-
 **Research framework**
 
 <img width="625" height="680" alt="Supplementary Fig  1" src="https://github.com/user-attachments/assets/f43e7e42-a80c-4d44-acd5-462e48fd8fe4" />
