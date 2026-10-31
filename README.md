@@ -1,13 +1,13 @@
-# Revealing Human Mobility Patterns to Extreme Heat through Street Network Topology
+# Revealing Human Mobility Patterns to Heatwaves through Street Network Topology
 
-This repository contains the analysis code for a study examining how extreme heat events shape human mobility patterns across 20 major US Metropolitan Statistical Areas (MSAs). Using large-scale mobility data linked with temperature records, NAICS-coded POIs' visits, and OpenStreetMap street network data, the study identifies divergent behavioral responses to heat stress and connects them to urban form characteristics.
+This repository contains the analysis code for a study examining how heatwave events shape human mobility patterns across 20 major US Metropolitan Statistical Areas (MSAs). Using large-scale mobility data linked with temperature records, NAICS-coded POIs' visits, and OpenStreetMap street network data, the study identifies divergent behavioral responses to heat stress and connects them to urban form characteristics.
 
 ## Research Overview
 
 In this study, we are committed to addressing the following questions:
-- How do the spatiotemporal dynamics of human mobility under extreme heat vary across major US metropolitan areas?
-- What are the revealed visitation patterns to urban establishments and essential services under extreme heat?
-- How do the topological characteristics of street networks, as representations of urban morphology, shape human mobility patterns under extreme heat?
+- How do the spatiotemporal dynamics of human mobility under heatwaves vary across major US metropolitan areas?
+- What are the revealed visitation patterns to urban establishments and essential services under heatwaves?
+- How do the topological characteristics of street networks, as representations of urban morphology, shape human mobility patterns under heatwaves?
 
 **Research framework**
 
@@ -31,6 +31,7 @@ Code/
 ├── F4a_T2. Street_Network_Orentation.py    # Fig 4a/Table 2 — Street orientation polar plots & metrics
 ├── F4b. Classifed_Network_Orentation.py    # Fig 4b — Classified orientation by city cluster
 ├── T1. Spearman Test.py                    # Table 1 — Spearman correlation tests between street network metrics and mobility indicators
+├── table1_bh_adjustment.py                 # It applies the Benjamini–Hochberg correction (α = 0.05) to the 30 stratified Spearman correlation tests in Table 1 and writes the adjusted P values and significance summary
 └── Supplementary/                          # Supplementary figures and tables
 ```
 
