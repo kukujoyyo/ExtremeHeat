@@ -31,7 +31,7 @@ Code/
 ├── F4a_T2. Street_Network_Orentation.py    # Fig 4a/Table 2 — Street orientation polar plots & metrics
 ├── F4b. Classifed_Network_Orentation.py    # Fig 4b — Classified orientation by city cluster
 ├── T1. Spearman Test.py                    # Table 1 — Spearman correlation tests between street network metrics and mobility indicators
-├── table1_bh_adjustment.py                 # It applies the Benjamini–Hochberg correction (α = 0.05) to the 30 stratified Spearman correlation tests in Table 1 and writes the adjusted P values and significance summary
+├── T1. BH_adjustment.py                    # It applies the Benjamini–Hochberg correction (α = 0.05) to the 30 stratified Spearman correlation tests in Table 1 and writes the adjusted P values and significance summary
 └── Supplementary/                          # Supplementary figures and tables
 ```
 
